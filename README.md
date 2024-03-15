@@ -15,7 +15,7 @@ This Python script is a simple interpreter for a subset of the K programming lan
 | Enumeration       | `!x`             | `!3 -> 0 1 2` 
 | Join              | `x,y`            | `1,2 -> 1 2`  
 | Box/Enlist        | `,x`             | `,1  -> ,1`   
-| Reverse           | `|x `            | `|!3 -> 2 1 0`
+| Reverse           | `\|x `           | `\|!3 -> 2 1 0`
 | Top/First         | `*x `            | `*!3 -> 0`    
 | Over/Reduce       | `+/x`            | `+/!5 -> 10`  
 |                   | `x+/y`           | `10+/!5 -> 20`
